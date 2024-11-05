@@ -9,17 +9,33 @@
 
 <body bgcolor="pink">
 	<!-- the entire body must be written by student -->
-	<h1>Right</h1>
-	<nav>
-		<a href="#about">checkRole</a>
+	<header> 
+	<h1 role="heading">Bhavani Siva Prasad's Portfolio</h1>
+	</header>
+	<nav role="navigation" aria-label="Main navigation">
+		<ul role="list">
+			<li role="listitem"><a href="#About">About me</a></li>
+			<li role="listitem"><a href="#project">Projects</a></li>
+			<li role="listitem"><a href="#contact">Contact</a></li>
+		</ul>
 	</nav>
-	<img  alt="role">
-	<ul >
-		<li>role</li>
-		<li>Monkey Name</li>
-		<li>Age</li>
-		<li>Climbing</li>
-	</ul>
+	<main>
+		<section id="About">
+			<img src="profile.jpg" alt="Portrait of BSP" role="img">
+			<p> I'm BSP, a backend Developer focused on backend part.</p>
+		</section>
+		<section id="projects">
+			<h2 role="heafing">Projects</h2>
+			<ul role="list">
+				<li role="listitem">End-to-end e-com platform</li>
+				<li role="listitem">Portfolio</li>
+			</ul>
+		</section>
+	</main>
+	<footer id="contact">
+		<h2 role="heading">Contact</h2>
+		<p>Email: jfgtf@gmail.com</p>
+	</footer>
     <script type="text/javascript" src="./script.js">
 </script>
 

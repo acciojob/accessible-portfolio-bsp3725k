@@ -1,6 +1,25 @@
 
 /* Your CSS Code here. */
-.first{
-	font-family: lightcoral;
-	font-size-adjust: medium;
+*{
+	margin: 0;
+	padding:0;
+	box-sizing: border-box;
 }
+body{
+	font-family:Arial, sans-serif;
+	line-height:1.6;
+	color:#333;
+	background-color:#f4f4f9;
+	
+}
+header{
+	marging-top:20px;
+	text-align:center;
+}
+footer{
+	font-size:1rem;
+}
+
+
+
+
